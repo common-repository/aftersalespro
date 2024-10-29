@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AfterSalesPro\n"
+"POT-Creation-Date: 2022-10-13 14:43+0300\n"
+"PO-Revision-Date: 2022-10-13 14:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: aftersalespro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/partials/dashboard.php:9
+msgid ""
+"To setup the plugin successfully, please refer to the documentation that can "
+"be found"
+msgstr "Οδηγίες εγκατάστασης και ρύθμισης του plugin μπορείτε να βρείτε"
+
+#: admin/partials/dashboard.php:11 admin/partials/dashboard.php:20
+#: admin/partials/dashboard.php:52 admin/partials/dashboard.php:122
+msgid "here"
+msgstr "εδώ"
+
+#: admin/partials/dashboard.php:16
+msgid "Authorization Settings"
+msgstr "Ρυθμίσεις εξουσιοδότησης"
+
+#: admin/partials/dashboard.php:18
+msgid ""
+"You can create the API token for you account in the administration panel of "
+"your user profile at AfterSalesPro. You can access the page"
+msgstr ""
+"Το API token για τον λογαριασμό σας μπορείτε να το δημιουργήσετε μέσα από το "
+"διαχειριστικό του AfterSalesPro. Θα βρείτε τη σελίδα διαχείρισης ηλ. "
+"πλατφορμών"
+
+#: admin/partials/dashboard.php:26
+msgid "Valid API token - Successful Connection"
+msgstr "Έγκυρο API token - Επιτυχής Σύνδεση"
+
+#: admin/partials/dashboard.php:30
+msgid "Invalid API token"
+msgstr "Λάθος API Token"
+
+#: admin/partials/dashboard.php:50
+msgid ""
+"There are no carriers installed in your account. Please add a carrier in "
+"order to proceed. Visit AfterSalesPro panel to add a new carrier"
+msgstr ""
+"Δεν έχετε δηλώσει κάποια εταιρεία courier στον λογαριασμό σας. Παρακαλώ "
+"προσθέστε μία καινούρια courier μέσα από το πάνελ διαχείρισης του "
+"λογαριασμού σας στο AfterSalesPro πατώντας"
+
+#: admin/partials/dashboard.php:58
+msgid "Settings for Shipping Methods at Checkout"
+msgstr "Βασικές ρυθμίσεις για τους Τρόπους Αποστολής στο Checkout"
+
+#: admin/partials/dashboard.php:64
+msgid "Activate new shipping methods at checkout"
+msgstr "Ενεργοποίηση των νέων τρόπων αποστολής στο checkout"
+
+#: admin/partials/dashboard.php:67 admin/partials/dashboard.php:91
+#: admin/partials/dashboard.php:133
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: admin/partials/dashboard.php:68 admin/partials/dashboard.php:92
+#: admin/partials/dashboard.php:134
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: admin/partials/dashboard.php:73
+msgid "Free shipping for order value grater than (€)"
+msgstr "Δωρεάν μεταφορικά για παραγγελίες πάνω από (€)"
+
+#: admin/partials/dashboard.php:79
+msgid "Default order weight (if this is not provided from the system)"
+msgstr ""
+"Προεπιλεγμένο βάρος παραγγελίας (αν η παραγγελία δεν περιέχει αυτή την "
+"πληροφορία)"
+
+#: admin/partials/dashboard.php:88
+msgid "Activate FallBack*"
+msgstr "Ενεργοποίηση της υπηρεσίας FallBack*"
+
+#: admin/partials/dashboard.php:97
+msgid "Shipping Method Title for the FallBack"
+msgstr "Ονομασία του τρόπου αποστολής για τη λειτουργία FallBack"
+
+#: admin/partials/dashboard.php:103
+msgid "Shipping cost in case of FallBack"
+msgstr "Κόστος για τον τρόπο αποστολής σε περίπτωση FallBack"
+
+#: admin/partials/dashboard.php:111
+msgid ""
+"*With the activation of FallBack, in case of failure, the system will show "
+"one shipping option with a flat/fixed cost. If FallBack service is disabled, "
+"the system will not show any new shipping method at checkout."
+msgstr ""
+"*Με την ενεργοποίηση του Fallback, εάν το σύστημα δεν καταφέρει να εμφανίσει "
+"τους νέους δυναμικούς τρόπους αποστολής, τότε θα επιστρέψει έναν μόνο τρόπο "
+"αποστολής με σταθερό κόστος. Εάν η υπηρεσία FallBack είναι απενεργοποιημένη, "
+"το σύστημα δεν θα εμφανίσει κανέναν νέο τρόπο αποστολής στο checkout."
+
+#: admin/partials/dashboard.php:117
+msgid "Tracking Widget Settings"
+msgstr "Ρυθμίσεις Tracking Widget"
+
+#: admin/partials/dashboard.php:120
+msgid ""
+"You can setup your tracking widget and find your URL in your administration "
+"page at AfterSalesPro. Please click"
+msgstr ""
+"Μπορείτε να ρυθμίσετε το tracking widget καθώς και να βρείτε το URL σας στην "
+"σελίδα του διαχειριστικού σας στο AfterSalesPro. Παρακαλώ κάντε κλικ"
+
+#: admin/partials/dashboard.php:130
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: admin/partials/dashboard.php:142
+msgid "i.e."
+msgstr "π.χ."
+
+#: admin/partials/dashboard.php:147
+msgid "Use shortcode"
+msgstr "Χρησιμοποιήστε το shortcode"
+
+#: admin/partials/dashboard.php:147
+msgid "to show tracking widget in any page or widget"
+msgstr "για να εμφανίσετε το tracking widget σε οποιαδήποτε σελίδα"
+
+#: admin/partials/dashboard.php:155
+msgid "Advanced Settings"
+msgstr "Ρυθμίσεις για προχωρημένους"
+
+#: admin/partials/dashboard.php:158
+msgid ""
+"Please DO NOT change these settings unless you have received certain "
+"instructions by AfterSalesPro team."
+msgstr ""
+"ΜΗΝ πειράξετε τα παρακάτω πεδία εκτός αν σας έχουν σταλεί οδηγίες από την "
+"ομάδα του AfterSalesPro."
+
+#: admin/partials/dashboard.php:185
+msgid "Setup Information"
+msgstr "Πληροφορίες εγκατάστασης"
+
+#: admin/partials/footer.php:8
+msgid "Panel"
+msgstr "Panel"
+
+#: admin/partials/footer.php:11
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: admin/partials/footer.php:14
+msgid "Service Status"
+msgstr "Κατάσταση υπηρεσίας"
+
+#: includes/class-aftersalesprogr-woocommerce.php:47
+msgid "AfterSalesPro Shipping"
+msgstr "AfterSalesPro Shipping"
+
+#: includes/class-aftersalesprogr-woocommerce.php:50
+msgid "Settings have moved"
+msgstr "Οι ρυθμίσεις μπορούν να βρεθούν"
+
+#: includes/class-aftersalesprogr-woocommerce.php:52
+msgid "here."
+msgstr "εδώ."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "AfterSalesPro"
+msgstr "AfterSalesPro"
+
+#. Description of the plugin/theme
+msgid ""
+"Automate the process of voucher/label creation, shipments tracking, "
+"customers notification, cash on delivery and returns monitoring and many "
+"more."
+msgstr ""
+"Αυτοματοποίησε τη διαδικασία έκδοσης των voucher των αποστολών σου, την "
+"ενημέρωση των πελατών, τη διαχείριση των αντικαταβολών, τον έλεγχο των "
+"επιστροφών και πολλών άλλων."
+
+#. Author URI of the plugin/theme
+msgid "https://aftersalespro.gr"
+msgstr "https://aftersalespro.gr"
+
+#~ msgid "Invalid Credentials"
+#~ msgstr "Τα στοιχεία σύνδεσης δεν είναι έγκυρα."
+
+#~ msgid "Instructions"
+#~ msgstr "Οδηγίες"
+
+#~ msgid "Do not edit this field unless you know what you are doing"
+#~ msgstr ""
+#~ "ΜΗΝ πειράξετε τα παρακάτω πεδία εκτός αν σας έχουν σταλεί οδηγίες από την "
+#~ "ομάδα του AfterSalesPro"

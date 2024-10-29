@@ -1,0 +1,166 @@
+#aftersalesprogr h1 {
+    float: right;
+    width: auto;
+    font-size: 18px;
+    margin: 10px;
+    line-height: 29px;
+}
+
+.alert {
+    display: block;
+    width: 90%;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 1px 1%;
+    margin: 10px auto;
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+
+.alert-success {
+    border-color: #45c033;
+}
+
+.alert-error {
+    border-color: #F00;
+}
+#aftersalesprogr .logo {
+    float: left;
+    margin: 10px;
+    max-width: 250px;
+}
+
+#aftersalesprogr .card {
+    width: 100%; max-width: 98%; padding-left: 1%; padding-right: 1%;
+}
+
+#aftersalesprogr .card .col-md-6 {
+    display: inline-table;
+    vertical-align: top;
+    width: 47%;
+    padding: 1%;
+    margin: 0;
+}
+
+#aftersalesprogr .card .col-md-6 table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+#aftersalesprogr .card .col-md-6 th {
+    text-align: right;
+}
+
+#aftersalesprogr .card .col-md-6 th,
+#aftersalesprogr .card .col-md-6 td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#aftersalesprogr .card .col-md-6 input[type=text] {
+    width: 100%;
+    min-width: 330px;
+    height: 30px;
+    display: block;
+}
+
+#aftersalesprogr .card .col-md-6 textarea {
+    width: 100%;
+    min-width: 330px;
+    height: 120px;
+    display: block;
+}
+
+#aftersalesprogr .card .form-group {
+    display: inline-table;
+    width: 17%;
+    padding: 1%;
+}
+
+#aftersalesprogr .card .form-group label {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#aftersalesprogr .card .form-group small {
+    width: 100%;
+    display: block;
+}
+
+#aftersalesprogr .card .form-group input[type=text] {
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+
+@media (max-width: 1250px) {
+
+    #aftersalesprogr .card .form-group {
+        display: inline-table;
+        width: 22%;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    #aftersalesprogr .card .form-group {
+        display: inline-table;
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    #aftersalesprogr .card .form-group {
+        display: inline-table;
+        width: 47%;
+    }
+
+    #aftersalesprogr .card .col-md-6 {
+        display: inline-table;
+        width: 97%;
+        padding: 1%;
+    }
+}
+
+#aftersalesprogr .card.pagination a {
+    color: #7ccbb4;
+    margin-top: 5px;
+    padding:  5px 10px 8px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #7ccbb4;
+}
+#aftersalesprogr .card.pagination a:hover,
+#aftersalesprogr .card.pagination a.active {
+    color: #FFF;
+    background: #7ccbb4;
+    margin-top: 5px;
+    padding:  5px 10px 8px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #7ccbb4;
+}
+
+
+#aftersalesprogr .card p.submit {
+    text-align: right;
+    margin: 0;
+    width: 98%;
+    padding: 10px 2%;
+}
+#aftersalesprogr .card h3 {
+    margin: 0 0 20px;
+}
+
+#aftersalesprogr .card h3 small {
+    font-weight:  initial;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 0 0;
+}
